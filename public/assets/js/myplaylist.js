@@ -1,0 +1,163 @@
+/**
+ * Created by 23rd and Walnut
+ * www.23andwalnut.com
+ * User: Saleem El-Amin
+ * Date: 6/8/11
+ * Time: 9:39 AM
+ */
+
+var myPlaylist = [
+
+    {
+        mp3:'media/2014/001.mp3',
+        title:"Can't Be Tamed",
+        artist:'Miley Cyrus',
+        rating:5,
+        duration:'2:50',
+        cover:"http://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Miley_Cyrus_-_Can't_Be_Tamed_single.png/220px-Miley_Cyrus_-_Can't_Be_Tamed_single.png"
+    },
+    {
+        mp3:'media/2014/002.mp3',
+        title:"GAS PEDAL (CAKED UP REMIX)",
+        artist:'SAGE THE GEMINI',
+        rating:5,
+        duration:'3:32',
+        cover:"http://www.coolest-gadgets.com/wp-content/uploads/gas-pedal-small.jpg",
+    },
+    {
+        mp3:'media/2014/003.mp3',
+        title:"Breezeblocks",
+        artist:'Alt-J (∆)',
+        rating:5,
+        duration:'3:47',
+        cover:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4TmOJvwf8_ybk8TZ-CYuFH8xKgeWMhVrJmeRuAgNmFdLFYu1RUw",
+    },
+    {
+        mp3:'media/2014/004.mp3',
+        title:"All Deez",
+        artist:'Buku',
+        rating:5,
+        duration:'3:26',
+        cover:'http://i1.sndcdn.com/artworks-000051152284-mwndxb-original.jpg',
+    },
+    {
+        mp3:'media/2014/005.mp3',
+        title:"Reading Rainbow",
+        artist:'DMX',
+        rating:5,
+        duration:'1:01',
+        cover:"http://i1.sndcdn.com/artworks-000065443412-mwo9j1-original.jpg",
+    },
+    {
+        mp3:'media/2014/006.mp3',
+        title:"Lost in Translation",
+        artist:'G-Easy',
+        rating:5,
+        duration:'3:05',
+        cover:"http://static.djbooth.net/pics-tracks/geazy-lostintranslation.jpg",
+    },
+    {
+        mp3:'media/2014/007.mp3',
+        title:"Bend My Dick To My Ass",
+        artist:'Bam Margera',
+        rating:5,
+        duration:'3:44',
+        cover:"http://cache.fanity.com/2011/09/07/131538941517_square.jpg",
+    },
+    {
+        mp3:'media/2014/008.mp3',
+        title:"Enjoy The Ride",
+        artist:'Krewella',
+        rating:5,
+        duration:'3:32',
+        cover:"http://upload.wikimedia.org/wikipedia/en/thumb/1/14/Krewella_Get_Wet_Artwork_with_PA_Logo.png/220px-Krewella_Get_Wet_Artwork_with_PA_Logo.png",
+    },
+    {
+        mp3:'media/2014/009.mp3',
+        title:"23 (feat. Miley Cyrus, Wiz Khalifa & Juicy J)",
+        artist:'Mike Will Made-It',
+        rating:5,
+        duration:'4:13',
+        cover:"http://cdn01.cdn.justjared.com/wp-content/uploads/headlines/2013/09/miley-cyrus-miike-they-made-me-23-video.jpg",
+    },
+    {
+        mp3:'media/2014/010.mp3',
+        title:"Fuckin' Broblems",
+        artist:'A$AP Rocky (feat. Drake, 2 Chainz & Kendrick Lamar)',
+        rating:5,
+        duration:'3:53',
+        cover:"http://www.asapmob.com/wp-content/uploads/2012/10/AAP_Problems_CVR_5by5_RGB.jpg",
+    },
+    {
+        mp3:'media/2014/011.mp3',
+        title:"Ratchet",
+        artist:'Machine Gun Kelly Ft. Dub-O, Ray Jr, Tezo, JP, Pooh Gutta',
+        rating:5,
+        duration:'2:56',
+        cover:"http://howflyhiphop.com/wp-content/uploads/2013/01/machine-gun-kelly-ratchet-download.jpg",
+    },
+    {
+        mp3:'media/2014/012.mp3',
+        title:"Girls Who Save The World",
+        artist:'3LAU',
+        rating:5,
+        duration:'4:23',
+        cover:"http://i1.sndcdn.com/artworks-000019695270-wvvevh-crop.jpg",
+    },
+    {
+        mp3:'media/2014/013.mp3',
+        title:"Ratchet",
+        artist:'Zeds Dead',
+        rating:5,
+        duration:'2:38',
+        cover:"http://thissongissick.com/blog/wp-content/uploads/2013/06/Zeds-Dead-Altered-States-artwork-2013.png",
+    },
+    {
+        mp3:'media/2014/014.mp3',
+        title:"3005",
+        artist:'Childish Gambino',
+        rating:5,
+        duration:'4:15',
+        cover:"http://d3na4zxidw1hr4.cloudfront.net/site_media/uploads/images/post/c/childish-gambino/2013-10-21-childishgambino_jpg_630x640_q85.jpg",
+    },
+    {
+        mp3:'media/2014/015.mp3',
+        title:"Ocho Cinco",
+        artist:'French Montoya',
+        rating:5,
+        duration:'4:10',
+        cover:"http://cdn.stupiddope.com/wp-content/uploads/2013/02/frenchmontana-macncheese3.jpg",
+    },
+    {
+        mp3:'media/2014/016.mp3',
+        title:"White Dude",
+        artist:'Lil Dicky',
+        rating:5,
+        duration:'4:28',
+        cover:"http://trillerthanmost.com/wp-content/uploads/2013/04/Lil-Dicky-So-Hard.jpg",
+    },
+    {
+        mp3:'media/2014/017.mp3',
+        title:"We Fly High",
+        artist:'JIM JONES',
+        rating:5,
+        duration:'4:10',
+        cover:"http://www.cellphone-wallpapers.net/Wallpapers/Money/We-Fly-High.jpg",
+    },
+    {
+        mp3:'media/2014/018.mp3',
+        title:"Foreal",
+        artist:'Pries',
+        rating:5,
+        duration:'3:09',
+        cover:"http://images.junostatic.com/full/CS2034589-02A-BIG.jpg",
+    },
+    {
+        mp3:'media/2014/019.mp3',
+        title:"Collard Greens ft. Kendrick Lamar",
+        artist:'SchoolBoy Q',
+        rating:5,
+        duration:'4:44',
+        cover:"http://cdn.self-titledmag.com/wp-content/uploads/2013/06/artworks-000050294229-f3w166-original.jpg",
+    },
+];
